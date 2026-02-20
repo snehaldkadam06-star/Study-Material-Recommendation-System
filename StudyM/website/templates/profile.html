@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - StudyM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="profile-page">
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark">
+        <div class="container">
+            <div class="logo">
+                <h1>Study Material Recommendation System</h1>
+                <span class="tagline">AI-Powered Learning</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                <li><a href="{{ url_for('profile') }}" class="active">Profile</a></li>
+                <li class="user-menu">
+                    <span class="user-avatar">{{ first_name[0].upper() }}</span>
+                    <span class="user-name">{{ first_name }} {{ last_name }}</span>
+                </li>
+                <li><a href="{{ url_for('logout') }}" class="btn-logout">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    </body>
+
+
+    <!-- Profile Content -->
+    <section class="profile-section">
+        <div class="container">
+            <div class="profile-card">
+                <div class="profile-header">
+                    <div class="profile-avatar-large">
+                        {{ first_name[0].upper() }}
+                    </div>
+                    <div class="profile-info">
+                        <h1>{{ first_name }} {{ last_name }}</h1>
+                        <p class="profile-email">{{ email }}</p>
+                        <p class="profile-joined">Member since {{ created_at }}</p>
+                    </div>
+                </div>
+
+                
+
+
+
+                <div class="profile-actions">
+                    <a href="{{ url_for('dashboard') }}" class="btn btn-primary">
+                        <span>🎯</span> Get Recommendations
+                    </a>
+                    <a href="{{ url_for('logout') }}" class="btn btn-secondary">
+                        <span>🚪</span> Logout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <script>
+        setTimeout(() => {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => alert.style.opacity = '0');
+            setTimeout(() => alert.remove(), 300);
+        }, 5000);
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyM - AI Study Material Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Study Material Recommendation System</h1>
+                <span class="tagline">AI-Powered Learning</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                <li><a href="{{ url_for('signup') }}" class="btn-nav">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">🎓 AI-Powered Education</div>
+            <h1>Discover Your Perfect <span class="gradient-text">Study Materials</span></h1>
+            <p class="hero-subtitle">
+                Our intelligent recommendation system uses machine learning to suggest the best 
+                study resources tailored to your skill level and learning goals.
+            </p>
+            <div class="hero-buttons">
+                <a href="{{ url_for('signup') }}" class="btn btn-primary">Start Learning Free</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Subjects</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">AI</span>
+                    <span class="stat-label">Powered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5K+</span>
+                    <span class="stat-label">Resources</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <span class="icon">📚</span>
+                <span>Python</span>
+            </div>
+            <div class="floating-card card-2">
+                <span class="icon">🧠</span>
+                <span>Machine Learning</span>
+            </div>
+            <div class="floating-card card-3">
+                <span class="icon">💻</span>
+                <span>Web Development</span>
+            </div>
+            <div class="floating-card card-4">
+                <span class="icon">📊</span>
+                <span>Data Science</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose <span class="gradient-text">Us?</span></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI-Powered Recommendations</h3>
+                    <p>Our KNN algorithm analyzes your preferences and suggests the most relevant study materials instantly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3>Curated Resources</h3>
+                    <p>Access handpicked YouTube tutorials and documentation from trusted sources worldwide.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Personalized Learning</h3>
+                    <p>Get recommendations based on your skill level - Beginner, Intermediate, or Advanced.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Results</h3>
+                    <p>Receive 5 best-matching study materials in seconds with direct links to resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It <span class="gradient-text">Works</span></h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Create Account</h3>
+                    <p>Sign up for free and create your personalized learning profile.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Select Preferences</h3>
+                    <p>Choose your subject, skill level, difficulty, and topic.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Get Recommendations</h3>
+                    <p>Our AI instantly suggests the best study materials for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Learning Journey?</h2>
+            <p>Join with thousands of students using AI to accelerate their learning</p>
+            <a href="{{ url_for('signup') }}" class="btn btn-primary btn-large">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>StudyM</h3>
+                    <p>AI-Powered Study Material Recommendation System</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('login') }}">Login</a>
+                    <a href="{{ url_for('signup') }}">Sign Up</a>
+                </div>
+                <div class="footer-tech">
+                    <h4>Powered By</h4>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Flask</span>
+                    <span class="tech-badge">scikit-learn</span>
+                    <span class="tech-badge">KNN</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 StudyM. Built with ❤️ for education.</p>
+            </div>
+        </div>
+    </footer>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Close flash messages
+        setTimeout(() => {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => alert.style.opacity = '0');
+            setTimeout(() => alert.remove(), 300);
+        }, 5000);
+    </script>
+</body>
+</html>

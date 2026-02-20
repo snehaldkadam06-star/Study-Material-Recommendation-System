@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - StudyM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="auth-page">
+    <!-- Navigation -->
+    <nav class="navbar navbar-transparent">
+        <div class="container">
+            <div class="logo">
+                <h1>Study Material Recommendation System</h1>
+                <span class="tagline">AI-Powered Learning</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Auth Container -->
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h2>Create Account 🚀</h2>
+                <p>Start your personalized learning journey today</p>
+            </div>
+
+            <form method="POST" action="{{ url_for('signup') }}" class="auth-form">
+              <div class="form-group">
+    <label for="first_name">
+        <span class="input-icon">👤</span>
+        First Name
+    </label>
+    <input type="text" id="first_name" name="first_name"
+           placeholder="Enter your first name" required>
+</div>
+
+<div class="form-group">
+    <label for="last_name">
+        <span class="input-icon">👤</span>
+        Last Name
+    </label>
+    <input type="text" id="last_name" name="last_name"
+           placeholder="Enter your last name" required>
+</div>
+
+<div class="form-group">
+    <label for="email">
+        <span class="input-icon">📧</span>
+        Email
+    </label>
+    <input type="email" id="email" name="email"
+           placeholder="Enter your email" required>
+</div>
+
+<div class="form-group">
+    <label for="password">
+        <span class="input-icon">🔒</span>
+        Password
+    </label>
+    <input type="password" id="password" name="password"
+           placeholder="Create a password" required>
+</div>
+
+
+
+
+
+                <button type="submit" class="btn btn-primary btn-full">
+                    <span>Create Account</span>
+                    <span class="btn-icon">✨</span>
+                </button>
+            </form>
+
+            <div class="auth-footer">
+                <p>Already have an account? <a href="{{ url_for('login') }}">Sign in</a></p>
+            </div>
+
+            <div class="auth-back">
+                <a href="{{ url_for('index') }}" class="back-link">← Back to Home</a>
+            </div>
+        </div>
+
+        <div class="auth-visual">
+            <div class="visual-content">
+                <div class="visual-icon">🎯</div>
+                <h3>Join with 5000+ Learners</h3>
+                <p>Get instant access to AI-powered study material recommendations</p>
+                <ul class="benefits-list">
+                    <li>✓ Personalized recommendations</li>
+                    <li>✓ 100+ subjects to explore</li>
+                    <li>✓ Free forever plan</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <script>
+        setTimeout(() => {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => alert.style.opacity = '0');
+            setTimeout(() => alert.remove(), 300);
+        }, 5000);
+    </script>
+</body>
+</html>
+
+

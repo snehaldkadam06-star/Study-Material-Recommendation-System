@@ -1,0 +1,145 @@
+subject,user_level,difficulty,topic,youtube_link,tutorial_site_link
+Python,Beginner,Easy,Python Fundamentals,https://www.youtube.com/@ProgrammingwithMosh,https://docs.python.org/3/
+Python,Intermediate,Medium,Python Fundamentals,https://www.youtube.com/@ProgrammingwithMosh,https://docs.python.org/3/
+Python,Advanced,Hard,Python Fundamentals,https://www.youtube.com/@ProgrammingwithMosh,https://docs.python.org/3/
+SQL,Beginner,Easy,SQL Fundamentals,https://www.youtube.com/@freecodecamp,https://www.w3schools.com/sql/
+SQL,Intermediate,Medium,SQL Fundamentals,https://www.youtube.com/@freecodecamp,https://www.w3schools.com/sql/
+SQL,Advanced,Hard,SQL Fundamentals,https://www.youtube.com/@freecodecamp,https://www.w3schools.com/sql/
+Machine Learning,Beginner,Easy,Machine Learning Fundamentals,https://www.youtube.com/@statquest,https://scikit-learn.org/stable/
+Machine Learning,Intermediate,Medium,Machine Learning Fundamentals,https://www.youtube.com/@statquest,https://scikit-learn.org/stable/
+Machine Learning,Advanced,Hard,Machine Learning Fundamentals,https://www.youtube.com/@statquest,https://scikit-learn.org/stable/
+Java,Beginner,Easy,Java Fundamentals,https://www.youtube.com/@Telusko,https://docs.oracle.com/en/java/
+Java,Intermediate,Medium,Java Fundamentals,https://www.youtube.com/@Telusko,https://docs.oracle.com/en/java/
+Java,Advanced,Hard,Java Fundamentals,https://www.youtube.com/@Telusko,https://docs.oracle.com/en/java/
+C,Beginner,Easy,C Fundamentals,https://www.youtube.com/@CodeWithHarry,https://www.geeksforgeeks.org/c-programming-language/
+C,Intermediate,Medium,C Fundamentals,https://www.youtube.com/@CodeWithHarry,https://www.geeksforgeeks.org/c-programming-language/
+C,Advanced,Hard,C Fundamentals,https://www.youtube.com/@CodeWithHarry,https://www.geeksforgeeks.org/c-programming-language/
+C++,Beginner,Easy,C++ Fundamentals,https://www.youtube.com/@ApnaCollegeOfficial,https://www.cplusplus.com/
+C++,Intermediate,Medium,C++ Fundamentals,https://www.youtube.com/@ApnaCollegeOfficial,https://www.cplusplus.com/
+C++,Advanced,Hard,C++ Fundamentals,https://www.youtube.com/@ApnaCollegeOfficial,https://www.cplusplus.com/
+DSA,Beginner,Easy,DSA Fundamentals,https://www.youtube.com/@takeUforward,https://www.geeksforgeeks.org/data-structures/
+DSA,Intermediate,Medium,DSA Fundamentals,https://www.youtube.com/@takeUforward,https://www.geeksforgeeks.org/data-structures/
+DSA,Advanced,Hard,DSA Fundamentals,https://www.youtube.com/@takeUforward,https://www.geeksforgeeks.org/data-structures/
+Cloud Computing,Beginner,Easy,Cloud Computing Fundamentals,https://www.youtube.com/@SimplilearnOfficial,https://aws.amazon.com/what-is-cloud-computing/
+Cloud Computing,Intermediate,Medium,Cloud Computing Fundamentals,https://www.youtube.com/@SimplilearnOfficial,https://aws.amazon.com/what-is-cloud-computing/
+Cloud Computing,Advanced,Hard,Cloud Computing Fundamentals,https://www.youtube.com/@SimplilearnOfficial,https://aws.amazon.com/what-is-cloud-computing/
+Web Development,Beginner,Easy,Web Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Web Development,Intermediate,Medium,Web Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Web Development,Advanced,Hard,Web Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Data Science,Beginner,Easy,Data Science Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Data Science,Intermediate,Medium,Data Science Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Data Science,Advanced,Hard,Data Science Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Artificial Intelligence,Beginner,Easy,Artificial Intelligence Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Artificial Intelligence,Intermediate,Medium,Artificial Intelligence Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Artificial Intelligence,Advanced,Hard,Artificial Intelligence Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Cyber Security,Beginner,Easy,Cyber Security Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Cyber Security,Intermediate,Medium,Cyber Security Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Cyber Security,Advanced,Hard,Cyber Security Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+DevOps,Beginner,Easy,DevOps Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+DevOps,Intermediate,Medium,DevOps Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+DevOps,Advanced,Hard,DevOps Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Operating Systems,Beginner,Easy,Operating Systems Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Operating Systems,Intermediate,Medium,Operating Systems Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Operating Systems,Advanced,Hard,Operating Systems Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Computer Networks,Beginner,Easy,Computer Networks Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Computer Networks,Intermediate,Medium,Computer Networks Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Computer Networks,Advanced,Hard,Computer Networks Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+DBMS,Beginner,Easy,DBMS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+DBMS,Intermediate,Medium,DBMS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+DBMS,Advanced,Hard,DBMS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Software Engineering,Beginner,Easy,Software Engineering Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Software Engineering,Intermediate,Medium,Software Engineering Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Software Engineering,Advanced,Hard,Software Engineering Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Blockchain,Beginner,Easy,Blockchain Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Blockchain,Intermediate,Medium,Blockchain Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Blockchain,Advanced,Hard,Blockchain Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+IoT,Beginner,Easy,IoT Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+IoT,Intermediate,Medium,IoT Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+IoT,Advanced,Hard,IoT Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Big Data,Beginner,Easy,Big Data Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Big Data,Intermediate,Medium,Big Data Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Big Data,Advanced,Hard,Big Data Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Android Development,Beginner,Easy,Android Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Android Development,Intermediate,Medium,Android Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Android Development,Advanced,Hard,Android Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+iOS Development,Beginner,Easy,iOS Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+iOS Development,Intermediate,Medium,iOS Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+iOS Development,Advanced,Hard,iOS Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Game Development,Beginner,Easy,Game Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Game Development,Intermediate,Medium,Game Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Game Development,Advanced,Hard,Game Development Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+UI UX Design,Beginner,Easy,UI UX Design Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+UI UX Design,Intermediate,Medium,UI UX Design Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+UI UX Design,Advanced,Hard,UI UX Design Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Digital Marketing,Beginner,Easy,Digital Marketing Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Digital Marketing,Intermediate,Medium,Digital Marketing Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Digital Marketing,Advanced,Hard,Digital Marketing Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Power BI,Beginner,Easy,Power BI Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Power BI,Intermediate,Medium,Power BI Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Power BI,Advanced,Hard,Power BI Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Tableau,Beginner,Easy,Tableau Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Tableau,Intermediate,Medium,Tableau Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Tableau,Advanced,Hard,Tableau Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Excel,Beginner,Easy,Excel Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Excel,Intermediate,Medium,Excel Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Excel,Advanced,Hard,Excel Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Linux,Beginner,Easy,Linux Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Linux,Intermediate,Medium,Linux Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Linux,Advanced,Hard,Linux Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Networking Basics,Beginner,Easy,Networking Basics Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Networking Basics,Intermediate,Medium,Networking Basics Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Networking Basics,Advanced,Hard,Networking Basics Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+AWS,Beginner,Easy,AWS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+AWS,Intermediate,Medium,AWS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+AWS,Advanced,Hard,AWS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Azure,Beginner,Easy,Azure Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Azure,Intermediate,Medium,Azure Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Azure,Advanced,Hard,Azure Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Google Cloud,Beginner,Easy,Google Cloud Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Google Cloud,Intermediate,Medium,Google Cloud Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Google Cloud,Advanced,Hard,Google Cloud Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Deep Learning,Beginner,Easy,Deep Learning Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Deep Learning,Intermediate,Medium,Deep Learning Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Deep Learning,Advanced,Hard,Deep Learning Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+NLP,Beginner,Easy,NLP Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+NLP,Intermediate,Medium,NLP Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+NLP,Advanced,Hard,NLP Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Computer Vision,Beginner,Easy,Computer Vision Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Computer Vision,Intermediate,Medium,Computer Vision Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Computer Vision,Advanced,Hard,Computer Vision Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Statistics,Beginner,Easy,Statistics Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Statistics,Intermediate,Medium,Statistics Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Statistics,Advanced,Hard,Statistics Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Mathematics for CS,Beginner,Easy,Mathematics for CS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Mathematics for CS,Intermediate,Medium,Mathematics for CS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Mathematics for CS,Advanced,Hard,Mathematics for CS Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+R Programming,Beginner,Easy,R Programming Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+R Programming,Intermediate,Medium,R Programming Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+R Programming,Advanced,Hard,R Programming Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Shell Scripting,Beginner,Easy,Shell Scripting Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Shell Scripting,Intermediate,Medium,Shell Scripting Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Shell Scripting,Advanced,Hard,Shell Scripting Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Kotlin,Beginner,Easy,Kotlin Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Kotlin,Intermediate,Medium,Kotlin Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Kotlin,Advanced,Hard,Kotlin Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Swift,Beginner,Easy,Swift Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Swift,Intermediate,Medium,Swift Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Swift,Advanced,Hard,Swift Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+React,Beginner,Easy,React Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+React,Intermediate,Medium,React Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+React,Advanced,Hard,React Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Node.js,Beginner,Easy,Node.js Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Node.js,Intermediate,Medium,Node.js Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Node.js,Advanced,Hard,Node.js Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Django,Beginner,Easy,Django Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Django,Intermediate,Medium,Django Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Django,Advanced,Hard,Django Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Flask,Beginner,Easy,Flask Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Flask,Intermediate,Medium,Flask Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Flask,Advanced,Hard,Flask Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Spring Boot,Beginner,Easy,Spring Boot Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Spring Boot,Intermediate,Medium,Spring Boot Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Spring Boot,Advanced,Hard,Spring Boot Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Microservices,Beginner,Easy,Microservices Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Microservices,Intermediate,Medium,Microservices Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/
+Microservices,Advanced,Hard,Microservices Fundamentals,https://www.youtube.com/@freecodecamp,https://www.geeksforgeeks.org/

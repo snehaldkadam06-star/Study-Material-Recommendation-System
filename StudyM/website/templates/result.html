@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Recommendations - StudyM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="result-page">
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark">
+        <div class="container">
+            <div class="logo">
+                <h1>Study Material Recommendation System</h1>
+                <span class="tagline">AI-Powered Learning</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                <li class="user-menu">
+                    <span class="user-avatar">{{ username[0].upper() }}</span>
+                    <span class="user-name">{{ username }}</span>
+                </li>
+                <li><a href="{{ url_for('logout') }}" class="btn-logout">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Result Header -->
+    <section class="result-header">
+        <div class="container">
+            <div class="result-title">
+                <h1>✨ Your Personalized Recommendations</h1>
+                <p>Based on your selection: <strong>{{ search_params.subject }}</strong> | 
+                   <strong>{{ search_params.user_level }}</strong> | 
+                   <strong>{{ search_params.difficulty }}</strong> | 
+                   <strong>{{ search_params.topic }}</strong></p>
+            </div>
+            <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">
+                ← New Search
+            </a>
+        </div>
+    </section>
+
+    <!-- Recommendations Grid -->
+    <section class="recommendations-section">
+        <div class="container">
+            <div class="recommendations-grid">
+                {% for rec in recommendations %}
+                <div class="recommendation-card">
+                    <div class="card-header">
+                        <span class="card-number">#{{ loop.index }}</span>
+                        <span class="card-subject">{{ rec.subject }}</span>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="card-detail">
+                            <span class="detail-label">📊 Level:</span>
+                            <span class="detail-value">{{ rec.user_level }}</span>
+                        </div>
+                        <div class="card-detail">
+                            <span class="detail-label">⚡ Difficulty:</span>
+                            <span class="detail-value">{{ rec.difficulty }}</span>
+                        </div>
+                        <div class="card-detail">
+                            <span class="detail-label">🎓 Topic:</span>
+                            <span class="detail-value">{{ rec.topic }}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-actions">
+                        <a href="{{ rec.youtube_link }}" target="_blank" class="btn btn-youtube">
+                            <span>📺</span> YouTube
+                        </a>
+                        <a href="{{ rec.tutorial_site_link }}" target="_blank" class="btn btn-tutorial">
+                            <span>📖</span> Tutorial
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section class="tips-section">
+        <div class="container">
+            <div class="tips-card">
+                <h3>💡 Learning Tips</h3>
+                <ul>
+                    <li>Start with the YouTube videos to get a conceptual understanding</li>
+                    <li>Use the tutorial sites for in-depth reference and practice</li>
+                    <li>Practice with hands-on projects after completing the basics</li>
+                    <li>Join online communities to connect with fellow learners</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <script>
+        setTimeout(() => {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => alert.style.opacity = '0');
+            setTimeout(() => alert.remove(), 300);
+        }, 5000);
+    </script>
+</body>
+</html>
+
